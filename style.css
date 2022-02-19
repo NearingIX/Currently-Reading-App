@@ -1,0 +1,68 @@
+* {
+  font-family: "Alice", serif;
+}
+
+#bookList {
+  text-align: center;
+  padding: 1em;
+  background-color: lightblue;
+}
+#toDoList {
+  margin: 1em;
+}
+
+button {
+  color: black;
+  border: 1px solid black;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: white;
+  padding: 0.7em;
+  font-size: 1.3em;
+}
+
+button:hover {
+  color: white;
+  border: 1px solid black;
+  text-decoration: none;
+  transition: 0.3s;
+  background-color: black;
+  padding: 0.7em;
+  font-size: 1.3em;
+}
+
+input {
+  font-size: 1.5em;
+}
+
+#pagesRead {
+  width: 6em;
+}
+
+#totalPages {
+  width: 8em;
+}
+
+/* Style the list items */
+li {
+  cursor: pointer;
+  text-align: center;
+  padding: 1em;
+  background: white;
+  font-size: 1.5em;
+  transition: 0.3s;
+  margin: 0 14em 0em 14em;
+}
+
+li:nth-child(odd) {
+  background: lightblue;
+}
+
+li:hover {
+  background: black;
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+}
